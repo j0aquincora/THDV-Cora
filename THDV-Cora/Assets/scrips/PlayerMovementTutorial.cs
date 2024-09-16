@@ -38,7 +38,7 @@ public class PlayerMovementTutorial : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true;
+        //rb.freezeRotation = true;
 
         readyToJump = true;
     }

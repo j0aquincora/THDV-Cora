@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 6472917010131435786}
   - component: {fileID: 1694914044842485211}
   - component: {fileID: 385920012660239876}
-  - component: {fileID: 5275716459347013162}
+  - component: {fileID: 7302463956539735066}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -226,8 +226,9 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 64
+  grounded: 0
   orientation: {fileID: 5893366117049281390}
---- !u!114 &5275716459347013162
+--- !u!114 &7302463956539735066
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,11 +237,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6507876885845365125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78bdf11cfe15fcf40a60f36e836cc4fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f3a23963b813784b9a4e0f141674a71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   flag: {fileID: 3604180658710330580, guid: a90a632815482394286162344de24964, type: 3}
-  playerPos: {fileID: 0}
+  playerPos: {fileID: 6472917010131435786}
+  respawnPos: {x: 0, y: 0, z: 0}
 --- !u!1 &8223907180999915797
 GameObject:
   m_ObjectHideFlags: 0

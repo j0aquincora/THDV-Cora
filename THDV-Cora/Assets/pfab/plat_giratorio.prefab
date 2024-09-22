@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3240478384940969388}
   - component: {fileID: 2871718444148510697}
   - component: {fileID: 5877429328852714694}
+  - component: {fileID: 2508589744143424858}
   m_Layer: 0
   m_Name: giratorio
   m_TagString: Untagged
@@ -1187,6 +1188,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7.5100117, y: 110.10032, z: 4.5612607}
   m_Center: {x: -4.2847905, y: 51.824284, z: -0.0000035207468}
+--- !u!54 &2508589744143424858
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540705351001626059}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!1 &1653468324101970917
 GameObject:
   m_ObjectHideFlags: 0

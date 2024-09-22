@@ -37,6 +37,7 @@ public class Flag : MonoBehaviour
     {
         Debug.Log("toque la r");
         playerPos.position = respawnPos;
+        //Destroy(flag);
 
     }
     private void DropFlag()

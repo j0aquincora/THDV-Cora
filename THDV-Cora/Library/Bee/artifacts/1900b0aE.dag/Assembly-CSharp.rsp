@@ -363,6 +363,7 @@
 "Assets/scrips/MysticRotationAndFloat.cs"
 "Assets/scrips/PlayerMovementTutorial.cs"
 "Assets/scrips/ThirdPersonCam.cs"
+"Assets/scrips/trampoline.cs"
 -langversion:9.0
 /deterministic
 /optimize+
